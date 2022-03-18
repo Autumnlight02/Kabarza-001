@@ -1,0 +1,25 @@
+{
+  "name": "kabarza-001",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify browser.js -o static/bundle.js",
+    "watch": "watchify browser.js -o static/bundle.js --debug --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Autumnlight02/Kabarza-001.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Autumnlight02/Kabarza-001/issues"
+  },
+  "homepage": "https://github.com/Autumnlight02/Kabarza-001#readme",
+  "dependencies": {
+    "dom-to-image": "^2.6.0",
+    "uniq": "^1.0.1",
+    "watchify": "^4.0.0"
+  }
+}
